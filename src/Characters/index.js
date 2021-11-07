@@ -2,12 +2,12 @@ import "./styles.css";
 import CharCard from "../CharCard";
 export default function Characters({ characterList }) {
   return (
-    <div className="characters-container">
-      <h1>Meus personagens</h1>
-      <div className="characters-list">
+    <div>
+      <h1> Meus Personagens</h1>
+      <div className="container">
         {characterList.map((character, index) => {
           return (
-            <div key={index} className="character-card">
+            <div key={index}>
               <CharCard character={character} />{" "}
             </div>
           );

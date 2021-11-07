@@ -1,6 +1,24 @@
-.character-card {
+.card-profile-dead {
   width: 150px;
-  background-color: purple;
+  background-color: red;
+  padding: 10px;
+  border-radius: 10px;
+  color: #f1f1f1;
+  font-weight: bold;
+  margin: 10px;
+}
+.card-profile-alive {
+  width: 150px;
+  background-color: green;
+  padding: 10px;
+  border-radius: 10px;
+  color: #f1f1f1;
+  font-weight: bold;
+  margin: 10px;
+}
+.card-profile-unknown {
+  width: 150px;
+  background-color: rgb(87, 87, 83);
   padding: 10px;
   border-radius: 10px;
   color: #f1f1f1;
@@ -21,4 +39,8 @@ h1 {
 }
 body {
   background-color: black;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
 }
