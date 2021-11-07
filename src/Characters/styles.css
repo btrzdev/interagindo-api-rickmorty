@@ -1,0 +1,24 @@
+.character-card {
+  width: 150px;
+  background-color: purple;
+  padding: 10px;
+  border-radius: 10px;
+  color: #f1f1f1;
+  font-weight: bold;
+  margin: 10px;
+}
+
+img {
+  width: 150px;
+}
+.characters-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+h1 {
+  color: #ffff;
+  margin: 10px;
+}
+body {
+  background-color: black;
+}
